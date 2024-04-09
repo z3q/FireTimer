@@ -21,6 +21,11 @@
 */
 void FireTimer::begin(const ulong &timeout, const bool &micros)
 {
+	bool us = false;
+	ulong timeDiff = 0;
+	ulong timeBench = 0;
+	ulong period    = 0;
+
 	us = micros;
 	update(timeout);
 }

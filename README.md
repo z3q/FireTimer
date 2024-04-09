@@ -1,6 +1,5 @@
 # FireTimer
-[![GitHub version](https://badge.fury.io/gh/PowerBroker2%2FFireTimer.svg)](https://badge.fury.io/gh/PowerBroker2%2FFireTimer) [![arduino-library-badge](https://www.ardu-badge.com/badge/FireTimer.svg?)](https://www.ardu-badge.com/FireTimer)<br /><br />
-Simple and non-blocking Arduino library used to "fire-off" processes at specific intervals
+Simple and non-blocking Arduino library used to "fire-off" processes at specific intervals. Difference with original: internal veriables are defined in class constructor, not in header - the library works well in Energia IDE with mspgcc version that does not support C++11.
 
 # Example
 ```C++

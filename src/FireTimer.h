@@ -16,8 +16,8 @@ const bool MICRO_SECONDS = true;
 class FireTimer
 {
 public: // <<---------------------------------------//public
-	bool us = false;
-	ulong timeDiff = 0;
+	bool us;
+	ulong timeDiff;
 
 
 
@@ -32,6 +32,6 @@ public: // <<---------------------------------------//public
 
 
 private: // <<---------------------------------------//private
-	ulong timeBench = 0;
-	ulong period    = 0;
+	ulong timeBench ;
+	ulong period ;
 };
